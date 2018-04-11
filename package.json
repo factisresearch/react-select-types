@@ -1,0 +1,94 @@
+{
+  "_from": "@types/react-select",
+  "_id": "@types/react-select@1.2.6",
+  "_inBundle": false,
+  "_integrity": "sha512-uy05Hk9W9NPGJ5v+/KSGcpYauZsjljRr9lC7lgsI6Hba7yaqOY5U5ezPmXRmFclYAMM0jCzMdshsknqFFSmRfg==",
+  "_location": "/@types/react-select",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/react-select",
+    "name": "@types/react-select",
+    "escapedName": "@types%2freact-select",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/react-select/-/react-select-1.2.6.tgz",
+  "_shasum": "8a9579705e04b2c15ce529379402980d80e9d243",
+  "_spec": "@types/react-select",
+  "_where": "/Users/swehr/devel/checkpad/git2/server/js/projects/web",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "ESQUIBET Hugo",
+      "url": "https://github.com/Hesquibet"
+    },
+    {
+      "name": "Gilad Gray",
+      "url": "https://github.com/giladgray"
+    },
+    {
+      "name": "Izaak Baker",
+      "url": "https://github.com/iebaker"
+    },
+    {
+      "name": "Tadas Dailyda",
+      "url": "https://github.com/skirsdeda"
+    },
+    {
+      "name": "Mark Vujevits",
+      "url": "https://github.com/vujevits"
+    },
+    {
+      "name": "Mike Deverell",
+      "url": "https://github.com/devrelm"
+    },
+    {
+      "name": "MartynasZilinskas",
+      "url": "https://github.com/MartynasZilinskas"
+    },
+    {
+      "name": "Onat Yigit Mercan",
+      "url": "https://github.com/onatm"
+    },
+    {
+      "name": "Ian Johnson",
+      "url": "https://github.com/ninjaferret"
+    },
+    {
+      "name": "Anton Novik",
+      "url": "https://github.com/tehbi4"
+    },
+    {
+      "name": "David Schkalee",
+      "url": "https://github.com/misantronic"
+    },
+    {
+      "name": "Arthur Udalov",
+      "url": "https://github.com/darkartur"
+    }
+  ],
+  "dependencies": {
+    "@types/react": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for react-select",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/react-select",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.6",
+  "typesPublisherContentHash": "cd9ef2bbc73fbacd6586b8b3bb0b6106abb1454810841ce9a36c94c9af717025",
+  "version": "1.2.6"
+}
