@@ -1,29 +1,4 @@
 {
-  "_from": "@types/react-select",
-  "_id": "@types/react-select@1.2.6",
-  "_inBundle": false,
-  "_integrity": "sha512-uy05Hk9W9NPGJ5v+/KSGcpYauZsjljRr9lC7lgsI6Hba7yaqOY5U5ezPmXRmFclYAMM0jCzMdshsknqFFSmRfg==",
-  "_location": "/@types/react-select",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "@types/react-select",
-    "name": "@types/react-select",
-    "escapedName": "@types%2freact-select",
-    "scope": "@types",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@types/react-select/-/react-select-1.2.6.tgz",
-  "_shasum": "8a9579705e04b2c15ce529379402980d80e9d243",
-  "_spec": "@types/react-select",
-  "_where": "/Users/swehr/devel/checkpad/git2/server/js/projects/web",
   "bundleDependencies": false,
   "contributors": [
     {
@@ -90,5 +65,5 @@
   "scripts": {},
   "typeScriptVersion": "2.6",
   "typesPublisherContentHash": "cd9ef2bbc73fbacd6586b8b3bb0b6106abb1454810841ce9a36c94c9af717025",
-  "version": "1.2.6"
+  "version": "1.2.7"
 }
