@@ -25,6 +25,7 @@ export default class ReactSelectClass<TValue = OptionValues> extends React.Compo
     numberOfVisibleOptions(): number;
     getInputValue(): string | null;
     selectFocusedOption(): void;
+    closeMenu(): void;
 }
 // Other components
 export class Creatable<TValue = OptionValues> extends React.Component<ReactCreatableSelectProps<TValue>> { }
