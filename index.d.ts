@@ -147,6 +147,21 @@ export interface MenuRendererProps<TValue = OptionValues> {
      * function which returns a custom way to render the options in the menu
      */
     optionRenderer: OptionRendererHandler<TValue>;
+
+    /**
+     * Callback to be invoked when this option is focused.
+     */
+    onFocus: (option: Option<TValue>, event: any) => void;
+
+    /**
+     * Callback to be invoked when this option is selected.
+     */
+    onSelect: (option: Option<TValue>, event: any) => void;
+
+    /**
+     * To pass the reference to the focused option (to scroll into view).
+     */
+    onOptionRef: (ref: React.ReactInstance, isFocused: boolean) => void;
 }
 
 export interface OptionComponentProps<TValue = OptionValues> {
