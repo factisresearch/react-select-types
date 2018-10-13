@@ -31,8 +31,7 @@ export default class ReactSelectClass<TValue = OptionValues> extends React.Compo
 export class Creatable<TValue = OptionValues> extends React.Component<ReactCreatableSelectProps<TValue>> { }
 export class Async<TValue = OptionValues> extends React.Component<ReactAsyncSelectProps<TValue>> { }
 export class AsyncCreatable<TValue = OptionValues> extends React.Component<ReactAsyncCreatableSelectProps<TValue>> { }
-
-export type OptionComponentType<TValue = OptionValues> = React.ComponentType<OptionComponentProps<TValue>>;
+export class OptionComponentType<TValue = OptionValues> extends React.Component<OptionComponentProps<TValue>> { }
 
 export type HandlerRendererResult = JSX.Element | null | false;
 
