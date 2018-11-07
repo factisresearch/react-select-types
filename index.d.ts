@@ -32,6 +32,7 @@ export class Creatable<TValue = OptionValues> extends React.Component<ReactCreat
 export class Async<TValue = OptionValues> extends React.Component<ReactAsyncSelectProps<TValue>> { }
 export class AsyncCreatable<TValue = OptionValues> extends React.Component<ReactAsyncCreatableSelectProps<TValue>> { }
 export class OptionComponentType<TValue = OptionValues> extends React.Component<OptionComponentProps<TValue>> { }
+export class Value<TValue = OptionValues> extends React.Component<ValueComponentProps<TValue>> {}
 
 export type HandlerRendererResult = JSX.Element | null | false;
 
@@ -223,6 +224,30 @@ export interface OptionComponentProps<TValue = OptionValues> {
      * Callback to invoke to select an option. (Not necessarily the one being rendered)
      */
     selectValue?: (value: TValue | TValue[]) => void;
+}
+
+export interface ValueComponentProps<TValue = OptionValues> extends React.Props<Value<TValue>> {
+    /**
+     * Unique id for the value - used for aria
+     */
+    id: string;
+    children: React.ReactNode;
+    /**
+     * disabled prop passed to ReactSelect
+     */
+    disabled: boolean;
+    /**
+     * method to handle click on value label
+     */
+    onClick?: (option: Option<TValue>, event: React.MouseEvent<HTMLAnchorElement>) => void;
+    /**
+     * method to handle removal of the value
+     */
+    onRemove: () => void;
+    /**
+     * the option object for this value
+     */
+    value: TValue[];
 }
 
 export interface ArrowRendererProps {
@@ -572,7 +597,7 @@ export interface ReactSelectProps<TValue = OptionValues> extends React.Props<Rea
     /**
      *  value component to render
      */
-    valueComponent?: React.ComponentType<TValue>;
+    valueComponent?: Value<TValue>;
 
     /**
      *  optional style to apply to the component wrapper
